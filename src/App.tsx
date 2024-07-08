@@ -21,7 +21,7 @@ function App() {
         console.log(json)
         if (json.cod === "404") {
           setError(
-            "City not found.(The name of the city is entered incorrectly.)"
+            "City not found.(May be the name of the city is entered incorrectly.)"
           )
           setWeather(null)
         } else {
